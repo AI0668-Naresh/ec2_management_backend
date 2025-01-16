@@ -5,7 +5,7 @@ from flask_pymongo import PyMongo
 from werkzeug.security import generate_password_hash, check_password_hash
 import datetime
 
-# Initialize Flask app and MongoDB
+# Initialize Flask app and MongoDB 
 app = Flask(__name__)
 app.config.from_object("config.Config")
 mongo = PyMongo(app)
